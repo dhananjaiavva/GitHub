@@ -1,175 +1,101 @@
-body {
-    / background-color: white;
-
+*{
     text-align: center;
 }
-
-
-.all,
-ul {
+header {
     text-align: center;
+    background-color:rgb(17, 181, 240);
+    color: black;
 }
 
-
-table,
-ul,
-ol,
-form {
-
-    margin-left: auto;
-    margin-right: auto;
-
-    display: table;
-}
-
-#main {
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    font-weight: bolder;
+h1 {
+    font-size: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
+    margin: 0%;
+}
+
+nav {
+    display: inline;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0%;
+}
+
+main {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .head {
-
-    font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
-    text-align: center;
+    font-size: 33px;
 }
 
-
-body {
-    background-color: white;
-    text-align: center; 
+#img {
+    border: 20px;
+    border-radius: 95px;
+    background-color: rgb(98, 98, 97);
+    padding: 20px;
 }
 
-table, ul, ol, form {
-    margin-left: auto;
-    margin-right: auto;
-    display: block; 
-    text-align: center;
+#p1 {
+    font-size: 25px;
 }
 
-#main {
-    background-color: blue; 
-    color: white; 
-    padding: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
-    text-align: center;
-    margin-bottom: 20px;
+#table {
+    margin-left: 670px;
+    font-size: 25px;
 }
 
-.head {
-    background-color: lightblue; 
-    color: #333; 
-    padding: 8px;
-    font-weight: bolder;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: underline;
-    text-align: center;
-    margin-top: 30px; 
-    margin-bottom: 15px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto; 
+.img2 {
+    padding: 18px;
+    width: 300px;
 }
 
-
-p.all {
-    background-color: #f0f0f0;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px; 
-    max-width: 70%; 
-    margin-left: auto; 
-    margin-right: auto; 
-}
-
-
-table {
-    background-color: #e6e6fa; 
-    border-collapse: collapse; 
-    width: 80%; 
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-
-table th, table td {
+#form {
     border: 1px solid #ccc; 
-    padding: 8px;
-    text-align: center;
-}
-
-h3 u {
-    background-color: #d3f0d3; 
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: inline-block; 
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-ol, ul {
-    background-color: #f8f8f8;
-    padding: 15px 20px;
-    border-radius: 8px;
-    max-width: 75%;
-    margin-bottom: 20px;
-    text-align: left; 
-}
-
-ol li h3 {
-    background-color: #e0f2f7;
-    padding: 5px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 5px;
-    margin-left: -10px; 
-}
-
-img.all {
-    height: 250px; 
-    width: 200px; 
-    border-radius: 50%;
-    border: 5px solid blue; 
-    object-fit: cover; 
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-
-form.all {
-    border: 2px solid #5cb85c; 
-    padding: 20px; 
-    border-radius: 10px;
+    padding: 2px;
+    width: 250px; 
+    margin: 3px auto; 
+ 
     background-color: #f9f9f9;
-    max-width: 500px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    text-align: left; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif;
 }
 
-form.all div {
-    margin-bottom: 
+#form input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
-form.all label {
-    display: block; 
-    margin-bottom: 5px;
+#form label {
     font-weight: bold;
-    color: #333;
+    display: block;
+    margin-top: 10px;
 }
 
-form.all input[type="text"],
-form.all input[type="email"] 
-    width: cal
+.nav-btn {
 
-    
+    position: fixed; 
+    bottom: 20px;  
+    right: 20px; 
+    z-index: 1000;  
+
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
