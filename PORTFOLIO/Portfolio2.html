@@ -1,103 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dhananjai's Portfolio</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-<body>
-    <h1 id="main">MY PORTFOLIO</h1>
-    <ul>
-        <a class="all" href="/Journey.html" target="_blank"><i>Journey</i></a></li>
-        <a class="all" href="/Achievements.html" target="_blank"><i>Achievement</i></a></li>
-    </ul>
-<h2 class="head">About me</h2>
 
- <img class="all" src="\Dhananjai Passportpic.jpeg" height="250">
- <p class="all">This is my personal portfolio website.Myself Dhananjai Avva, who is persuing B.Tech(CSE) at K.R MANGLAM.</p>
+<body id="dj">
+    <header>
+        <h1><u>My Portfolio</u> </h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#prj">Project</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contacts</a>
+        </nav>
+    </header>
 
+    <main>
+        <h2 id="about" class="head"><u>About Me</u></h2>
+        <img id="img" src="\Dhananjai Passportpic.jpeg" height="250">
+        <p id="p1">Myself Dhananjai Avva, who is persuing B.Tech(CSE) at K.R MANGLAM UNIVERSITY."</p>
 
-<hr>
-<h2 class="head">My Skills</h2>
- <table class="all" bgcolor="black">
-        <thead>
-            <tr bgcolor="grey">
-                <th><b>Skill</b></th>
-                <th><b>Level</b></th>
-            </tr>
-            <tr>
-                <td bgcolor="red">HTML</td>
-                <td bgcolor="lightgrey">Beginner</td>
-            </tr>
-            <tr>
-                <td bgcolor="red">Python</td>
-                <td bgcolor="lightgrey">Beginner</td>
-            </tr>
-
-        </thead>
-
-    </table>
-    <hr>
-    <h2 class="head">My Achivement</h2>
-     <h3><u>Academic Achivements</u></h3>
-    <table bgcolor="black">
-        <tr bgcolor="grey">
-            <th>CLASS 10</th>
-            <th>CLASS 12</th>
-            <th>JEE</th>
-        </tr>
-        <tr bgcolor="lightgrey">
-            <td>90%</td>
-            <td>81%</td>
-            <td>89</td>
-        </tr>
-    </table>
-    <br>
-    <h3 class="all"><u>Co-ciriculal Achivements</u></h3>
-    <ol>
-        
-            <h3><u>Swimming</u></h3>
-       
+        <hr>
+        <h2 id="prj" class="head"><u>My Projects</u></h2>
         <ul>
-            <li><i>U11 and U14</i> CBSE Cluster Winner</li>
-            <li><i>U11 </i> Nationals participant</li>
-            <li><i>U14</i> Nationals Winner</li>
-            <li><i>Khelo India</i> participant</li>
+            <div><b>Portfolio Website:</b>A personal one-page website to showcase ypur bio, journey, achivement.</li></div>
+            <img class="img2" src="portfoliothumnail.jpg">
+            <div><b>Python:</b>Made many projects with the help of Python language like calculator, odd-even, list, pyramid and etc.</li></div>
+            <img class="img2" src="variables-in-python-thumbnail-nowm-525x310.webp">
         </ul>
-       
-            <h3><U>Skating</U></h3>
-       
-        <UL>
-            <li><i>U9</i> District Winner</li>
-            <li><i>U11</i> Cluster Participant</li>
-            <li><i>U14</i> Roll Ball Distric Winner</li>
-            <li><I>U14</I> Nationals Winner</li>
-        </UL>
-    </ol>
-    <br>
-   <p class="all"> Performed Nukad Nataks, Participated and won in Loacal Competion of BADMINTON, CRICKET, TABLE TENNIS.</p>
-    <hr><h2 class="head">Contact Me</h2>
-     <form class="all">
-        <div>
-            <label for="name">Name</label>
-            <input type="text" placeholder="Enter your Name">
-        </div>
-        <br>
-        <div>
-            <label for="Email">Email</label>
-            <input type="email" placeholder="Enter your Email">
-        </div>
-        <br>
-        <div>
-            <label for="Message">Message</label>
-            <input type="text" placeholder="Enter your Message">
-        </div>
-        <br>
-        <input type="submit">
-    </form>
+        <hr>
+        <h2 id="skills" class="head"><u>Technical Skills</u></h2>
+        <table id="table" bgcolor="black">
+            <thead>
+                <tr bgcolor="grey">
+                    <th><b>Skill</b></th>
+                    <th><b>Level</b></th>
+                </tr>
+                <tr>
+                    <td bgcolor="red">HTML</td>
+                    <td bgcolor="lightgrey">Expert</td>
+                </tr>
+                <tr>
+                    <td bgcolor="red">Python</td>
+                    <td bgcolor="lightgrey">Beginner</td>
+                </tr>
+                 <tr>
+                    <td bgcolor="red">CSS</td>
+                    <td bgcolor="lightgrey">Beginner</td>
+                </tr>
 
 
-    
+            </thead>
+
+        </table>
+        <br>
+        <br>
+        <hr>
+        <u>
+        <h2 id="contact" class="head"><u>Contact Me</u></h2>
+        <form id="form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your Name">
+            </div>
+            <br>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Enter your Email">
+            </div>
+            <br>
+            <div>
+                <label for="Message">Message</label>
+                <input type="text" placeholder="Enter your Message">
+            </div>
+            <br>
+            <input type="submit">
+        </form>
+        <a href="#dj" input type="Back at top" value="Back at top" class="nav-btn">back at top</a>
+
+    </main>
+
 </body>
+
 </html>
