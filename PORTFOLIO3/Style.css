@@ -1,0 +1,380 @@
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+
+
+
+}
+
+.navbar {
+    margin: auto;
+    border-bottom: 2px solid rgba(255, 255, 255, .25);
+}
+
+.inner {
+    max-width: 1400px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#dj {
+    font-size: xx-large;
+    color: #d3d7dc;
+    text-decoration: none;
+
+}
+
+.nav {
+    text-align: right;
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    font: 500 20px/1.1 "Georgia", "Times New Roman", serif;
+    color: #d3d7dc;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+
+
+h1 {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+
+nav {
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0%;
+}
+
+nav :hover {
+    color: black;
+}
+
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.head {
+    font-size: 33px;
+}
+
+#img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: radial-gradient(ellipse at center, #e7f0ff 0 58%, #d7e5ff 58% 100%);
+    position: relative;
+    box-shadow: inset 0 0 0 14px #cfe0ff, 0 6px 18px rgba(0, 0, 0, .08);
+    padding: 5px;
+
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    margin-left: 10px;
+}
+
+#p1 {
+    font-size: 25px;
+}
+
+.img2 {
+    padding: 18px;
+    width: 300px;
+}
+
+#name1 {
+    font-family: cursive;
+    font-size: 100px;
+    animation: rainbow 10s infinite linear;
+}
+
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+
+    14% {
+        color: orange;
+    }
+
+    28% {
+        color: yellow;
+    }
+
+    42% {
+        color: green;
+    }
+
+    57% {
+        color: blue;
+    }
+
+    71% {
+        color: indigo;
+    }
+
+    85% {
+        color: violet;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+#Hi {
+    font-family: cursive;
+}
+
+.head1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+#p {
+    margin-left: 8px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.about {
+    max-width: 900px;
+    position: relative;
+    top: 25px;
+    margin: 40px auto;
+    padding: 40px 30px;
+    background: linear-gradient(135deg, #ffffff, #f2f4f8);
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+}
+
+#abt-h {
+    font-size: 32px;
+    color: #2a5bd7;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: -20px;
+}
+
+#abt-b {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#skills {
+    margin-top: -60px;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills-title {
+    font-size: 36px;
+    color: #2a5bd7;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.skill-card {
+    background: linear-gradient(135deg, #ffffff, #f2f4f8);
+    width: 200px;
+    padding: 25px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.skill-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(198, 14, 244, 0.18);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prj {
+    margin-top: -60px;
+    padding: 50px 20px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#prj-title {
+    font-size: 36px;
+    color: #2a5bd7;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#Project1 {
+    flex: 1 1 460px;
+    border: 2px solid black;
+    border-radius: 8%;
+    height: 380px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-size: cover;
+    animation: Project1 10s infinite;
+
+}
+
+@keyframes Project1 {
+    0% {
+        background-image: url("portfoliothumnail.jpg");
+    }
+
+    50% {
+        background-image: url("e2d2fa215836435.Y3JvcCwxNDAwLDEwOTUsMCww.jpg");
+    }
+
+    100% {
+        background-image: url("3ef2d2f1-680b-4947-a0cb-00005c975705-cover.png");
+    }
+}
+
+#Project2 {
+    flex: 1 1 460px;
+    border: 2px solid black;
+    border-radius: 8%;
+    box-shadow: darkorchid;
+    height: 380px;
+    width: 500px;
+    margin-top: -380px;
+    margin-left: 860px;
+    background-size: cover;
+    animation: Project2 10s infinite;
+}
+
+
+@keyframes Project2 {
+    0% {
+        background-image: url("variables-in-python-thumbnail-nowm-525x310.webp");
+    }
+
+    50% {
+        background-image: url("python-development-cropped.jpg");
+    }
+
+    100% {
+        background-image: url("python3.png");
+    }
+}
+
+#contact {
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    color: #2a5bd7;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+#form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 18px;
+    border-radius: 10px;
+
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#form label {
+    font-size: 14px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+#form input[type="text"],
+#form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+#form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#form input[type="submit"]:hover {
+    background: #e6e6e6;
+}
+
+
+.nav-btn {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: inline-block;
+    padding: 10px 15px;
+    background: linear-gradient(135deg, #005c97, #363795);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
